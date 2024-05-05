@@ -5,7 +5,7 @@ This project is the final project for cs445, which combines advanced object dete
 ## Output Video
 
 Watch the output video showing the detected and classified facial expressions by clicking the link below:
-[View Output Video](./output_video.mp4)
+[View Output Video](https://drive.google.com/file/d/1tvqGFL2bMAWsoon1r5UPYB5IJnDSaxM0/view?usp=drive_link)
 
 ## Prerequisites
 
@@ -47,7 +47,7 @@ ffmpeg -i input_video.mp4 -vf fps=30 ./frames/output_frame_%04d.png
 ### Step 2: Detect Faces in Frames
 Run the face detection script. This script uses a fine-tuned YOLO model to detect faces in each frame.
 ```
-cd ./face_detection/yolo
+cd ./face_detection/yolov9
 python detect.py --weights ../../best.pt --source ../../frames/ --save-txt --project runs/detect --name exp_detections
 ```
 
