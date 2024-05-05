@@ -20,8 +20,8 @@ Watch the output video showing the detected and classified facial expressions by
 
 1. **Clone the repository**:
 ```
-git clone https://github.com/your-repository/csfacial-expression-recognition.git
-cd facial-expression-recognition
+git clone https://github.com/boqiny/CS445-Facial-Expression-Recognition.git
+cd CS445-Facial-Expression-Recognition
 ```
 
 2. **Install required Python libraries**:
