@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 3. **Download and setup YOLOv9**:
-- Ensure you have the required weights (`best.pt`) placed in the project directory or adjust the paths in the scripts accordingly.
+- Ensure you have the required weights (`best.pt`) placed in the project directory or adjust the paths in the scripts accordingly. You can download the weight from: https://drive.google.com/file/d/13kwKUFHlBIv2QVRkztyLYRjL5Dno9byF/view?usp=drive_link
 
 4. **Prepare the environment**:
 - It is recommended to use a virtual environment like conda to avoid conflicts with existing Python packages.
